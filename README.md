@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🛍️ eShop - React E-Commerce Application
 
 A modern and responsive **E-commerce Web Application** built using **React.js**.
@@ -76,7 +76,3 @@ npm start
 * Full Stack Developer
 * React | Node | MongoDB | JavaScript
 
-
-=======
-# eShop_Project
->>>>>>> 0fe5c7d9f1948e1e1252186ea968e8d3e1995cc4
