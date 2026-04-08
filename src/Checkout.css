@@ -1,0 +1,99 @@
+.checkoutProductCard {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 16px 18px;
+  background: #ffffff;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.05);
+}
+
+.checkoutProductImg {
+  width: 80px;
+  height: 110px;
+  object-fit: contain;
+}
+
+.checkoutProductInfo {
+  flex: 1;
+}
+
+.checkoutProductTitle {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.checkoutRating {
+  color: #ffb300;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.checkoutPrice {
+  font-size: 16px;
+  font-weight: 700;
+  color: #ff6f00;
+  margin-bottom: 10px;
+}
+
+.checkoutActions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.qtyBox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #ddd;
+  padding: 4px 8px;
+  border-radius: 8px;
+}
+
+.qtyBox button {
+  border: none;
+  background: #f5f5f5;
+  width: 26px;
+  height: 26px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.qtyBox span {
+  font-weight: 600;
+  min-width: 18px;
+  text-align: center;
+}
+
+.removeBtn {
+  border: 1px solid #ff4d4f;
+  background: #fff;
+  color: #ff4d4f;
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.removeBtn:hover {
+  background: #ff4d4f;
+  color: white;
+}
+
+.checkoutContainer {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  gap: 24px;
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  .product img {
+    height: 150px;
+  }
+}

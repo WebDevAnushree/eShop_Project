@@ -1,0 +1,127 @@
+.checkoutProduct {
+  display: grid;
+  grid-template-columns: 120px 1fr 120px 120px;
+  align-items: center;
+  gap: 20px;
+
+  padding: 16px;
+  margin-bottom: 18px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Image */
+
+.checkoutProduct__image {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
+/* Info */
+
+.checkoutProduct__info h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.checkoutProduct__desc {
+  font-size: 13px;
+  color: #666;
+  margin: 6px 0;
+}
+
+.checkoutProduct__rating {
+  color: #f4b400;
+  font-size: 14px;
+}
+
+.checkoutProduct__price {
+  font-weight: 600;
+  color: #ff6f00;
+  margin-top: 4px;
+}
+
+/* Quantity */
+
+.checkoutProduct__qty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.checkoutProduct__qty button {
+  border: none;
+  padding: 4px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #eee;
+  font-weight: 600;
+}
+
+.checkoutProduct__qty span {
+  font-weight: 600;
+}
+
+/* Action */
+
+.checkoutProduct__action {
+  display: flex;
+  justify-content: center;
+}
+
+.checkoutProduct__action button {
+  border: 1px solid red;
+  background: white;
+  color: red;
+  padding: 6px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.checkoutProduct__action button:hover {
+  background: red;
+  color: white;
+}
+
+/* Tablet Responsive */
+
+@media (max-width: 768px) {
+  .checkoutProduct {
+    grid-template-columns: 100px 1fr;
+    gap: 15px;
+  }
+
+  .checkoutProduct__qty {
+    justify-content: flex-start;
+  }
+
+  .checkoutProduct__action {
+    justify-content: flex-start;
+  }
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 480px) {
+  .checkoutProduct {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .checkoutProduct__image {
+    margin: auto;
+  }
+
+  .checkoutProduct__qty {
+    justify-content: center;
+  }
+
+  .checkoutProduct__action {
+    justify-content: center;
+  }
+}

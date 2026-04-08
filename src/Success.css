@@ -1,0 +1,15 @@
+.success{
+height:70vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+}
+
+.success button{
+padding:12px 20px;
+margin-top:20px;
+background:#ff9900;
+border:none;
+cursor:pointer;
+}

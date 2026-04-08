@@ -1,0 +1,110 @@
+.priceBox{
+  background:#fff;
+  padding:18px;
+  border-radius:10px;
+  box-shadow:0 2px 10px rgba(0,0,0,.08);
+  width:100%;
+  max-width:320px;
+}
+
+/* Title */
+
+.priceTitle{
+  text-align:center;
+  font-size:18px;
+  margin-bottom:16px;
+}
+
+/* Row */
+
+.row{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin:10px 0;
+  font-size:14px;
+}
+
+.green{
+  color:#0a9b5c;
+}
+
+.total{
+  font-weight:600;
+  font-size:15px;
+}
+
+/* Gift */
+
+.gift{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  margin:12px 0;
+  font-size:13px;
+  color:#444;
+}
+
+/* Button */
+
+.continueBtn{
+  width:100%;
+  padding:10px 0;
+  border:none;
+  border-radius:6px;
+  background:#8a2be2;
+  color:white;
+  font-size:15px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.continueBtn:hover{
+  background:#6f1fd1;
+}
+
+/* Tablet */
+
+@media (max-width:768px) {
+
+  .priceBox {
+    max-width:100%;
+    margin-top:20px;
+  }
+
+  .priceTitle{
+    font-size:16px;
+  }
+
+  .row{
+    font-size:13px;
+  }
+
+}
+
+/* Mobile */
+
+@media (max-width:480px){
+
+  .priceBox{
+    padding:15px;
+  }
+
+  .priceTitle{
+    font-size:15px;
+  }
+
+  .row{
+    font-size:12px;
+  }
+
+  .gift{
+    font-size:12px;
+  }
+
+  .continueBtn{
+    font-size:14px;
+    padding:9px 0;
+  }
+
+}
